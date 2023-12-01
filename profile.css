@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kenia&family=Lora:wght@500&family=Quicksand:wght@500&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(4, 16, 25);
+
+}
+
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding: 0 30px 0 30px;
+    justify-content: space-between;
+
+}
+ul li a{
+    color: white;
+}
+.hii{
+    font-weight: 1000;
+    font-size: 20px;
+
+}
+ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 30px;
+}
+
+/*img {
+    height: 400px;
+    position: absolute;
+    left: 800px;
+    top: 200px;
+}*/
+
+.name {
+    width: 500px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+
+#page2 {
+    background-color: wheat;
+}
+
+/*#page1{
+    background-color: rgb(19, 185, 185);
+    height: 800px;
+}*/
+section {
+    height: 100vh;
+}
+
+.about a {
+    color: black;
+    font-weight: 1000;
+}
+
+.about {
+    background-color: rgb(10, 228, 244);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(10, 228, 244);
+    border-radius: 25px;
+}
+
+
+.about:hover {
+    box-shadow: 0 0 5px rgb(17, 202, 202),
+        0 0 15px rgb(17, 202, 202), 0 0 40px rgb(17, 202, 202),
+        0 0 0px rgb(17, 202, 202), 0 0 100px rgb(17, 202, 202);
+}
+span {
+    color: cyan;
+}
+
+
+
+.aboutme {
+    position: absolute;
+    left: 50vw;
+    top: 200px;
+    width: 400px;
+}
+
+.img img {
+    height: 470px;
+    position: absolute;
+    left: 800px;
+    top: 100px;
+
+}
+
+.image img {
+    height: 470px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.container {
+    padding: 100px;
+}
+
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.service-list .l1 {
+    padding: 40px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid rgb(4, 4, 127);
+    box-shadow: 10px 10px 16px rgb(4, 4, 127),
+        -10px -10px 16px rgb(4, 4, 127);
+}
+
+.service-list .l1:hover {
+    box-shadow: 10px 10px 16px cyan,
+        -10px -10px 16px cyan;
+}
+
+#service {
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+
+.fa-solid {
+    color: aqua;
+    font-size: 40px;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 3em;
+}
+
+.into {
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+}
+
+.into span {
+    color: rgb(249, 249, 249);
+
+}
+
+.line span {
+    color: rgb(226, 226, 226);
+    float: right;
+    margin-top: -25px;
+    margin-right: -20px;
+    height: 20px;
+    width: 35px;
+    text-align: center;
+    border: 1px solid cyan;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.skill1 {
+    position: relative;
+}
+
+.skill-header {
+    position: absolute;
+    left: 45%;
+    top: 100px;
+}
+
+.tech-bar {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    
+}
+.tech-bar .w1{
+    text-align: center;
+}
+
+.line {
+    border-radius: 5px;
+    height: 5px;
+    width: 400px;
+    background: rgb(9, 8, 8);
+}
+
+.line div {
+    width: 50%;
+    border-radius: 5px;
+    height: 5px;
+    background-color: cyan;
+}
+
+.html {
+    animation: html 1s linear forwards;
+}
+
+.css {
+    animation: css 1s linear forwards;
+}
+
+.js {
+    animation: js 1s linear forwards;
+}
+
+.python {
+    animation: python 1s linear forwards;
+}
+
+@keyframes html {
+    100% {
+        width: 80%;
+    }
+
+    0% {
+        width: 0px;
+    }
+}
+
+@keyframes css {
+    100% {
+        width: 40%;
+    }
+
+    0% {
+        width: 0px;
+    }
+}
+
+@keyframes js {
+    100% {
+        width: 30%;
+    }
+
+    0% {
+        width: 0px;
+    }
+}
+
+@keyframes python {
+    100% {
+        width: 40%;
+    }
+
+    0% {
+        width: 0px;
+    }
+}
+
+.container1 {
+    position: absolute;
+    top: 400px;
+    right: 300px;
+
+}
+.radical-bars {
+    display: flex;
+    flex-wrap: wrap;
+    height: 170px;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    gap: 20px;
+}
+.radial-bar{
+    position: relative;
+
+}
+
+.radial-bars .radial-bar{
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+
+.radial-bars .radial-bar svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 160px;
+    height: 160px;
+}
+
+.radial-bar .progress-bar {
+    stroke-width: 10;
+    stop-color: black;
+    fill: transparent;
+    stroke: black;
+    stroke-dashoffset: 502;
+    stroke-dasharray: 502;
+    stroke-linecap: round;
+    animation: round-bar 1s linear forwards;
+
+}
+
+@keyframes round-bar {
+    100% {
+        stroke-dashoffset: -1;
+    }
+}
+.parth{
+    stroke-width: 10;
+    stroke: rgb(34, 239, 239);
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+
+}
+.parth1{animation: animate-parth1 1s 1s linear forwards;}
+.parth2{animation: animate-parth2 1s 1s linear forwards;}
+.parth3{animation: animate-parth3 1s 1s linear forwards;}
+.parth4{animation: animate-parth4 1s 1s linear forwards;}
+@keyframes animate-parth1{
+    100%{
+        stroke-dashoffset: 75;
+    }
+}
+
+@keyframes animate-parth2{
+    100%{
+        stroke-dashoffset: 230;
+    }
+}
+@keyframes animate-parth3{
+    100%{
+        stroke-dashoffset: 75;
+    }
+}
+@keyframes animate-parth4{
+    100%{
+        stroke-dashoffset: 75;
+    }
+}
+.radial-bar .percentage{
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    color: rgb(241, 238, 233);
+    transform: translate(-50%,-50% );
+    font-size: 17px;
+    font-weight: 500;
+    animation: showtext 0.5s 1s linear forwards;
+    
+}
+
+.radial-bar .percentage1{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: rgb(241, 238, 233);
+    transform: translate(-50%,-50% );
+    font-size: 17px;
+    font-weight: 500;
+    animation: showtext 0.5s 1s linear forwards;
+    
+}
+
+
+
+
+
+#projects{
+    position: relative;
+}
+.projects{
+    padding-top: 130px;
+    margin-top: 200px;
+    
+}
+.project .txt h2{
+    color: rgb(245, 245, 245);
+    text-align: center;
+    
+}
+.txt{
+    position: absolute;
+    left: 40%;
+    top: 30px;
+}
+.txt h2{
+    color:white;
+    font-size: 50px;
+}
+.project{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(359px,auto));
+}
+.row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.row img{
+    width: 400px;
+    height: 300px;
+    border-radius:8px;
+    display: block;
+    transition: transform 0 0.5s;
+}
+.layer{
+    width:75%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.1),cyan);
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px 0 0;
+    transition: height 0.5s;
+}
+.layer h5{
+    color: black;
+    font-size: 1rem;
+    /*line-height: 15px;*/
+}/*
+.layer p{
+    color: rgb(136, 72, 72);
+    font-size:10px;
+}
+*/
+
+.layer p{
+    color: rgb(91, 17, 29);
+    margin-top: 10px;
+    font-size: 10px;
+    background:transparent;
+    width: 100%;
+    height: 60px;
+   /* display: flex;
+    align-items: center;
+    justify-content: center;*/
+    border-radius: 50%;
+}
+
+.row:hover img{
+    transform: scale(1.1);
+}
+.row:hover .layer{
+    height: 100%;
+}
+
+
+
+.cont-text li{
+    font-size: 20px;
+    list-style: none;
+}
+.cont-text,.cont-icon{
+    margin-left:100px;
+    margin-top: 20px;
+}
+
+.w2 p{
+   width: 50%;
+   font-size: 20px;
+}
+.w3{
+    margin-top:150px;
+}
+.cont-form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    position: absolute;  
+    right: 40px; 
+    top: 30%; 
+    
+}
+
+
+input,textarea{
+    outline: none;
+    padding: 15px;
+    background-color: rgb(49, 56, 54);
+    margin: 10px;
+    border: 3px solid rgb(108, 128, 128);
+    border-radius: 10px;
+}
+input :active{
+    background-color: aliceblue;
+}
+input:hover,textarea:hover{
+    border-color: rgb(55, 207, 207);
+}
+
+
+.button {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+    color: rgb(55, 207, 207);
+    border: 2px solid rgb(55, 207, 207);
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: rgb(55, 207, 207);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button:hover::before {
+    scale: 3;
+  }
+  
+  .button:hover {
+    color: #212121;
+    scale: 1.1;
+    box-shadow: 0 0px 20px rgba(26, 187, 179, 0.649);
+  }
+  
+  .button:active {
+    scale: 1;
+  }
+  
+.w3{
+    margin-top:200px;
+    margin-left: 100px;
+
+}
+.cont-icon a{
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+    border: 2px solid rgb(55, 207, 207);
+}
+.cont-icon i{
+    color: rgb(55, 207, 207);
+}
+
+.cont-icon  :hover{
+    transform: scale(1.2) ;
+}
